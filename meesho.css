@@ -1,0 +1,254 @@
+.c1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px rgb(206, 205, 205) solid;
+    height: 90px;
+}
+
+.c2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px rgb(206, 205, 205) solid;
+    height: 90px;
+    padding-left: 190px;
+
+    :hover {
+        color: violet;
+        border-bottom: 2px blue solid;
+        padding-top: 30px;
+    }
+}
+
+.e1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b1 {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.al {
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px rgb(122, 118, 118) solid;
+    text-align: center;
+    font-size: 20px;
+}
+
+.f1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.d1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.d2 {
+    background-color: rgb(182, 212, 202);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.d3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.d4 {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: purple;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+
+.f2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.d5 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1400px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, pink, skyblue);
+}
+
+.d6 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f3 {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.d7 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.d8 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 30PX;
+    width: fit-content;
+}
+
+.d9 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f4 {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.f5 {
+    color: white;
+    background-color: purple;
+    width: 100px;
+}
+
+.d10 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.img {
+    background-image: url('https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp');
+    height: 700px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url("https://images.meesho.com/images/pow/supplyBannerDesktop_1106.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1300px;
+    margin-top: 30px;
+}
+.b2{
+    color: purple;
+    background-color: white;
+    height: 50px;
+    width:150px ;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bolder;
+}
+.f6{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 30px;
+}
+.f7{
+    color: white;
+    font-weight: lighter;
+    margin: 20px;
+}
+.d11{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}.i1{
+    color: green;
+}
+.d12{
+    margin: 30px;
+    height: 30px;
+}
+.d13{
+    border-radius: 10px;
+    border: 2px lightgray solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.f8{
+    color: rgb(174, 172, 172);
+    text-align: center;
+}
+.f9{
+    font-size: 15px;
+    border-radius: 40px;
+    text-align: center;
+    width: 100px;
+    background-color: aliceblue;
+}
+.i2{
+    font-size: 15px;
+    border-radius: 40px;
+    text-align: center;
+    width: 40px;
+    background-color: green;
+    color: white;
+}
+.d14{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
